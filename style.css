@@ -1,0 +1,25 @@
+/*=======================
+ * CUSTOM PROPERTIES
+ *========================**/
+
+:root {
+  /*colors */
+  --clr-500: 234 12% 34%;
+  --clr-400: 212 6% 44%;
+  --clr-white: 0 0% 100%;
+
+  --clr-red: 0 78% 62%;
+  --clr-cyan: 180 62% 55%;
+
+  --clr-blue: 212 86% 64%;
+  --clr-orange: 34 97% 64%;
+
+  /* font-size */
+  --fs-800: 2.25rem; /* 36px */
+  --fs-400: 1.25rem; /* 20px */
+  --fs-300: 0.9375rem; /* 15px */
+  --fs-200: 0.8125rem; /* 13px */
+
+  /* font-family */
+  --ff--primary: "Poppins", sans-serif;
+}
