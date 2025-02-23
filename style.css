@@ -63,3 +63,31 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* avoid text overflows */
+p,
+h1 {
+  overflow-wrap: break-word;
+}
+
+/*=======================
+ * utility classes
+ *========================**/
+
+.services-grid,
+.service-card {
+  display: grid;
+  row-gap: 2rem;
+}
+
+.service-header {
+  display: flex;
+  flex-direction: column;
+  --flex-gap-base: 1rem;
+  --flex-gap-compact: 0.375rem;
+  gap: var(--flex-gap-compact, 1rem);
+}
+
+/*=======================
+ * COMPONENTS
+ *========================**/
